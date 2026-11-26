@@ -1,0 +1,12 @@
+
+services:
+  - type: web
+    name: inseption-chat
+    runtime: node
+    plan: free
+    buildCommand: npm ci && npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_VERSION
+        value: 22.22.2
