@@ -1,0 +1,135 @@
+{
+  "app": {
+    "name": "Hexlet Chat"
+  },
+  "header": {
+    "logout": "Log out"
+  },
+  "common": {
+    "cancel": "Cancel"
+  },
+  "login": {
+    "title": "Log in",
+    "description": "Enter your details to continue.",
+    "username": {
+      "label": "Your nickname",
+      "placeholder": "Your nickname"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "Your password"
+    },
+    "validation": {
+      "usernameRequired": "Your nickname is required.",
+      "passwordRequired": "Password is required."
+    },
+    "errors": {
+      "invalidCredentials": "Username or password are incorrect"
+    },
+    "loading": "Logging in...",
+    "submit": "Submit",
+    "signup": {
+      "prompt": "Don't have an account?",
+      "link": "Sign up"
+    }
+  },
+  "signup": {
+    "title": "Create an account",
+    "description": "Complete the following details to sign up.",
+    "username": {
+      "label": "Username",
+      "placeholder": "Choose a username"
+    },
+    "password": {
+      "label": "Password",
+      "placeholder": "At least 6 characters"
+    },
+    "confirmation": {
+      "label": "Confirm password",
+      "placeholder": "Repeat your password"
+    },
+    "validation": {
+      "usernameRequired": "Username is required.",
+      "usernameLength": "Must be from 3 to 20 characters",
+      "passwordRequired": "Password is required.",
+      "passwordLength": "Must be > 6 characters",
+      "confirmationRequired": "You must confirm your password.",
+      "passwordMismatch": "Passwords must match"
+    },
+    "errors": {
+      "usernameExists": "Username already taken",
+      "registrationFailed": "Registration failed. Please try again."
+    },
+    "loading": "Signing up...",
+    "submit": "Submit"
+  },
+  "notFound": {
+    "title": "404",
+    "description": "Sorry, the page you are looking for does not exist.",
+    "backHome": "Back to home"
+  },
+  "chat": {
+    "title": "Chat App",
+    "loading": "Loading chat...",
+    "loadError": "Unable to load chat data.",
+    "newChannel": "+",
+    "channelName": "Channel name",
+    "channelPlaceholder": "E.g. videogames",
+    "creatingChannel": "Creating...",
+    "createChannel": "Create channel",
+    "conversations": "Conversations",
+    "channelOptions": "Manage channel",
+    "renameChannel": "Rename",
+    "deleteChannel": "Remove",
+    "subtitle": "Real-time conversation",
+    "selectConversation": "Select a conversation to get started.",
+    "connection": {
+      "connected": "Connected",
+      "connecting": "Reconnecting...",
+      "disconnected": "Disconnected"
+    },
+    "unknownUser": "User",
+    "unavailableTime": "Time unavailable",
+    "emptyMessages": "There are no messages in this channel yet.",
+    "messageInputLabel": "New message",
+    "messageOfflinePlaceholder": "No Internet connection...",
+    "messagePlaceholder": "Write a message...",
+    "sendingMessage": "Sending...",
+    "sendMessage": "Send",
+    "selectChannel": "Select a channel to view and send messages.",
+    "validation": {
+      "channelRequired": "Channel name is required.",
+      "channelLength": "Must be from 3 to 20 characters",
+      "channelExists": "A channel with this name already exists."
+    },
+    "errors": {
+      "noConnection": "You are offline. Check your connection and try again.",
+      "createChannel": "Unable to create the channel. Check your connection and try again.",
+      "renameChannel": "Unable to rename the channel. Check your connection and try again.",
+      "deleteChannel": "Unable to delete the channel. Check your connection and try again.",
+      "sendMessage": "Unable to send the message. Your text has been kept so you can try again."
+    },
+    "renameModal": {
+      "title": "Rename",
+      "description": "Enter the new channel name.",
+      "saving": "Saving...",
+      "submit": "Rename"
+    },
+    "deleteModal": {
+      "title": "Delete channel {{name}}?",
+      "description": "This action will delete the channel and all its messages. This cannot be undone.",
+      "deleting": "Deleting...",
+      "confirm": "Confirm"
+    }
+  },
+  "notifications": {
+    "errorTitle": "Network Error",
+    "warningTitle": "Network Error",
+    "successTitle": "Success",
+    "loadError": "Unable to load chat data. Please check your connection and try again.",
+    "noConnection": "You are offline. Check your Internet connection.",
+    "channelCreated": "Channel created",
+    "channelRenamed": "Channel renamed",
+    "channelDeleted": "Channel removed"
+  }
+}
